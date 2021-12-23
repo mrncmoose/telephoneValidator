@@ -12,7 +12,7 @@ Dec 23, 2021
 1. Clone this repository.
 1. Change directory to wherever the repository was cloned to on your local machine.
 1. Create a file containing a list of the telephone numbers to be validated.  The default is 'phoneNumbers.txt'
-1. run:  python3 validator.py --inputFile=<file with your phone numbers>
+1. run:  python3 validator.py --inputFile=`<file with your phone numbers>`
 1. Invalid telephone numbers will be printed to stdout
 
 ## Arguments
