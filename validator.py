@@ -1,3 +1,8 @@
+# A simple 10 digit telephone number validator
+# Fred T. Dunaway
+# Dec 23, 2021
+# Regular expression taken from:  https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number/16702965
+
 import argparse
 import logging
 import logging.handlers
@@ -32,11 +37,11 @@ try:
         if m:
             ml.debug('Telephone number {} is valid.'.format(phoneNum))
         else:
-            print('Telephone number {} failed validation'.format(phoneNum))
+            ml.info('Telephone number "{}" failed validation'.format(phoneNum))
+            print('Telephone number "{}" failed validation'.format(phoneNum))
+    
+    file1.close()
 
 except Exception as e: 
     print('Error: {}'.format(e))
     ml.error('Error of {}'.format(e))
-
-# Closing files
-file1.close()
