@@ -1,6 +1,6 @@
 # Telephone Number Validator
 A simple utility to validate a list of 10 digit phone numbers in a file.  One phone number per line.
-The regular expresion was taken from: [stack over flow] (https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number/16702965)
+The regular expresion was taken from: [stack over flow](https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number/16702965)
 
 Fred T. Dunaway
 Dec 23, 2021
